@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="mystyle.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<style>
+
+    body{
+        overflow-x:hidden;
+    }
+.slide-1 {
+  background-image: url(pexels.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  width: 70% !important;
+
+
+}
+
+.slide-1 .content-sl h2 {
+  color: white;
+  width: 400px;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  margin-bottom: 30px;
+
+
+
+}
+
+.content-sl h2{
+    font-weight:300;
+}
+
+
+
+header nav{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 800px) {
+  .slider-prod {
+    display: none;
+  }
+}
+
+ul.menu-holder {
+    list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding:25px;
+  align-items: center;
+  max-width: 650px;
+}
+
+.title-section{
+    flex-direction:column;
+}
+
+
+nav {
+  display: flex;
+  width: 100%;
+  background-color:white ;
+  box-shadow: 1px solid #000;
+  color: #20c0ff;
+}
+
+nav img{
+    border-radius: 50%;
+    max-width: 65px;
+}
+.scroll-holders{
+    cursor:pointer;
+}
+
+
+
+  .product-image img {
+      position: absolute;
+      top:50px;
+          max-width: 140%;
+          width: 500px;
+          margin-top: 10px;
+          left: 20px;
+          bottom: 20px;
+          padding-bottom: 120px;
+          margin-top:60px;
+          
+        }
+
+.slider-prod {
+    flex-grow: 4;
+    position: relative;
+    background: linear-gradient(
+45deg
+, #20c0ff, #2fc4ff, #cbaa90, #755f4e);
+    background-size: 400% 400%;
+    overflow: hidden;
+    animation: gradient 8s ease infinite;
+    width: 30%;
+    z-index: 2 !important;
+}
+
+.prod-box{
+    flex-direction:column;
+    width:100%;
+}
+
+
+.slide-1 h1 {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 44px;
+
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+
+
+.slide3 {
+  background: url(HOMEPAGE-AP1.IO_-1024x682.jpeg);
+  background-size: 120%;
+  background-position: 0px 0px;
+  width: 70%;
+  color: white;
+  z-index: 1;
+}
+
+
+  
+.skill {
+  display: flex;
+  justify-content: space-between;
+  width: 85px;
+  padding: 30px 0px;
+    align-content: center;
+  align-items: center;
+}
+
+.skill img{
+    max-width: 90px;
+}
+          
+
+      .skills {
+          font-family: 'Poppins',sans-serif;
+          padding:40px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        .skills h1{
+            margin-left:40px;
+        } 
+        .skill-box{
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 700px;
+        }
+
+                .skill-box {
+          flex-wrap: wrap;
+          margin-bottom:-40px;
+        }
+
+
+
+@media(max-width:1000px){
+    .slide-1{
+ width:100% !important;
+    }
+    .slide2{
+ width:100% !important;
+    }
+    .slide3{
+        width:100% !important;
+    }
+
+        .scroll-holders{
+ margin-top:90px;
+ bottom:90px !important;
+    }
+}
+
+
+@media(max-width:500px){
+    .slide-1{
+ width:100% !important;
+    }
+    .slide2{
+ width:100% !important;
+    }
+    .slide3{
+        width:100% !important;
+    }
+    .scroll-holders{
+ margin-top:90px;
+ bottom:190px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  max-width:300px;
+  padding-right:40px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  width: 100%;
+  
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background:#70B8F4;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #fff;
+  color: #70B8F4;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+.contact-me{
+    padding:55px;
+    margin-bottom: -30px;
+}
+
+.contact-me h3{
+font-size:25px;
+margin-bottom: -90px;
+font-family: 'poppins',sans-serif;
+}
+
+.project img{
+    max-width:300px;
+}
+
+
+.project{
+    justify-content: center;
+    text-align: center;
+   padding:65px;
+}
+
+.portfolio-box{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+   
+    padding:30px;
+    background:  #70B8F4;
+    color:white;
+    font-family: 'Poppins',sans-serif;
+    font-size:23px;
+    overflow: hidden;
+}
+.project img{
+    margin-top:-25px;
+}
+
+.project h3{
+    margin-top:-30px;
+}
+
+
+
+
+.landing-engage{
+	display:flex;
+	
+	padding-left:10%;
+	height:800px;
+	background:#fff;
+}
+
+.image-boxmain img{
+	margin-right:30px;
+width:100%;
+	margin-right:400px;
+	margin-left:-60px;
+	margin-top:40px;
+	transform:rotate(3.5deg);
+	
+	
+}
+
+.learnb{
+	font-size:20px;
+}
+
+
+
+
+.functionality{
+	display:flex;
+	padding:140px 100px;
+	background-color:white;
+	color:black;
+	width:100%;
+
+	
+}
+.functionality h2.servtitle{
+	color:black;
+	font-size:32px;
+}
+.functionality p.serv-text{
+	color:black;
+}
+
+.functionality a.learn{
+	color:black;
+}
+.functionality a.learn:hover{
+	color:black;
+}
+
+.functionality span.service-feat{
+	background-color:transparent;
+	border:2px solid #009ace;
+	color:#009ace;
+}
+
+.functionality .phone-box1{
+
+	padding-left:145px;
+	padding-right:50px;
+	width:650px;
+}
+
+.functionality .phone-box1 img{
+	max-width:320px;
+	margin-top:-40px;
+	
+	
+}
+.functionality  p.serv-text{
+	padding-right:30px;
+}
+.functionality .content-serv1{
+
+	padding-right:150px;
+	padding-left:80px;
+	width:1200px;
+}
+
+.functionality .content-serv1 h2{
+
+	padding-right:175px;
+	
+}
+
+.toggle-section{
+	background:#e0e9ec;
+	
+
+}
+.toggle-holder{
+
+	display:flex;
+	justify-content:center;
+width:110%;
+	text-align:center;
+	
+	background:#e0e9ec;
+		padding:100px 0px;
+	margin-bottom:-80px;
+}
+
+
+
+.toggleboxer1{
+	display:flex;
+	justify-content:space-between;
+	width:400px;
+}
+.toggleboxer2{
+	
+	display:flex;
+	justify-content:space-between;
+	width:400px;
+	margin-left:50px;
+}
+
+img.toggle-img{
+	opacity:0.5;
+	width:40px;
+}
+
+.toggle-header{
+	margin-top:20px;
+	font-size:14.5px;
+}
+
+.togglecontent{
+	position:relative;
+}
+.activetoggle{
+	color:#00a9ce;
+	position:relative;
+	border-bottom:2px solid #00a9ce;
+	margin-bottom:50px;
+	padding-bottom:0px;
+}
+.activetoggle .toggle-header{
+	margin-bottom:3.5px;
+}
+
+
+.toggle-img{
+	
+	pointer-events:none;
+	
+}
+
+.content-boxer{
+	justify-content:center;
+	text-align:center;
+	width:110%;
+		padding-left:90px;
+}
+
+
+
+p.toggle-header{
+	pointer-events:none;
+padding-bottom:0px;
+}
+
+
+.togglecontent{
+	display:none;
+}
+
+
+.defaulttog{
+	color:black;
+}
+
+.toggle-container{
+	display:flex;
+	justify-content:center;
+	max-width:110%;
+}
+
+
+
+.content-imgbox img{
+	width:800px;
+	margin-left:10px;
+	margin-right:-90px;
+	
+
+}
+
+
+.content-texttog{
+	text-align:left;
+	margin-left:10%;
+	margin-top:7%;
+	width:40%;
+	padding:20px;
+	margin-right:130px;
+
+}
+.content-imgbox{
+	display:flex;
+	width:100%;
+	
+	float:right;
+	
+}
+
+h1.togglehead{
+	font-size:28px;
+	
+	margin-bottom:0px;
+}
+.toggle-text{
+	font-size:16px;
+}
+.content-texttog a.learn{
+	color:black;
+}
+.content-texttog a.learn:hover{
+	color:#00a9ce;
+}
+
+.activetoggle img{
+	opacity:1;
+}
+.service3 .content-serv3 {
+    margin-left: 111px;
+    margin-top: 80px;
+    margin-right: 0;
+}
+
+.management{
+	background:#fff;
+	display:flex;
+	overflow-y:hidden;
+	padding-bottom:80px;
+}
+
+.management-holder{
+	display:flex;
+	
+}
+
+@media (max-width:1200px){
+    .portfolio-box{
+        flex-wrap:wrap;
+    }
+
+    .skill-box{
+        flex-wrap:wrap;
+        width:90%;
+        padding: 30px;
+    }
+    .skill{
+        flex-wrap: wrap;
+    }
+}
+
+footer{
+    text-align: center;
+    background-color:#20c0ff;
+}
+
+footer img{
+    max-width: 90px;
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu-holder">
+                <div class="title-section">
+                   
+                    <img src="Daher Media Logo Blue BG (2).png" width="90px">
+                 
+                
+                </div>
+                <li class="menu-item">
+                    Home
+                </li>
+
+                    <li class="menu-item">
+                        Services
+                    </li>
+
+                        <li class="menu-item">
+                           Portfolio
+                        </li>
+                           
+                            <li class="menu-item">
+                                Contact
+                            </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+<div class="main">
+
+
+    <div class="slider-holdermain">
+   
+        <div class="progressbar">
+            <div class="pgrow"></div>
+        </div>
+        <div class="scroll-holders">
+
+
+
+            <button class="prev-button">
+                <img src="https://itzallaboutyou.com/wp-content/uploads/2021/06/Group-5@2x.png">
+
+            </button>
+
+            <button class="next-button">
+                <img src="https://itzallaboutyou.com/wp-content/uploads/2021/06/Group-6@2x.png">
+            </button>
+
+        </div>
+
+        <div class="slider-holder">
+
+
+
+            <div class="slide active">
+
+
+
+             
+                <div class="slide-1">
+
+                    <div class="overlay">
+
+                    </div>
+                    <div class="content-sl">
+
+
+            
+                        <h1>
+                            ALL ELDERLY HEALTHCARE <br> NEEDS IN ONE PLACE.
+                        </h1>
+                        <h2>
+                         WELDERLY.CA
+                        </h2>
+                        <div class="circular-text">
+
+                        </div>
+                        <a href="https://welderly.ca">
+                            <button class="main-button">
+                             EXPLORE PROJECT
+                            </button>
+                        </a>
+
+
+
+                        <div class="feature-overlay">
+
+                        </div>
+                        <div class="feature-holder">
+
+                            <div class="feature-box">
+                                <div class="fbox-main">
+                                    <div class="f-img">
+                                        <img src="Group1.png">
+                                    </div>
+                                    <div class="contentboxf">
+                                        <h4>
+                                            Solving Problems Globally
+                                        </h4>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="feature-box">
+                                <div class="fbox-main">
+                                    <div class="f-img">
+                                        <img src="Group5.png">
+                                    </div>
+                                    <div class="contentboxf">
+                                        <h4>
+                                            Quick Project Delivery
+                                        </h4>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="feature-box">
+                                <div class="fbox-main">
+                                    <div class="f-img">
+                                        <img src="Group4.png">
+                                    </div>
+                                    <div class="contentboxf">
+                                        <h4>
+                                            Top-notch projects
+                                        </h4>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slider-prod">
+                    <div class="product-image">
+                        <img src="welderly.png">
+
+                    </div>
+
+
+                   
+
+                </div>
+
+
+            </div>
+
+
+            <div class="slide">
+
+            
+                <div class="slide2">
+
+                    <div class="overlay">
+
+                    </div>
+                    <div class="content-sl">
+                
+                        <h1>
+                            ORGANIC PLANT <br> BASED SKIN FOOD
+                        </h1>
+                        <h2>
+                            ITZALLABOUTYOU.COM
+                        </h2>
+                        <div class="circular-text">
+
+                        </div>
+                        <a href="https://itzallaboutyou.com">
+                            <button class="main-button">
+                               EXPLORE PROJECT
+                            </button>
+                        </a>
+
+
+                        <div class="feature-overlay">
+
+                        </div>
+                        <div class="feature-holder">
+                        
+                            <div class="feature-box">
+                                <div class="fbox-main">
+                                    <div class="f-img">
+                                        <img src="Group1.png">
+                                    </div>
+                                    <div class="contentboxf">
+                                        <h4>
+                                            Solving Problems Globally
+                                        </h4>
+                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="feature-box">
+                                <div class="fbox-main">
+                                    <div class="f-img">
+                                        <img src="Group5.png">
+                                    </div>
+                                    <div class="contentboxf">
+                                        <h4>
+                                            Quick Project Delivery
+                                        </h4>
+                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="feature-box">
+                                <div class="fbox-main">
+                                    <div class="f-img">
+                                        <img src="Group4.png">
+                                    </div>
+                                    <div class="contentboxf">
+                                        <h4>
+                                            Top-notch projects
+                                        </h4>
+                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slider-prod">
+                    <div class="product-image">
+                        <img src="ALLABOUTYOUlaptop.png">
+
+                    </div>
+
+
+               
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="slide">
+
+
+    <div class="slide3">
+
+        <div class="overlay">
+
+        </div>
+        <div class="content-sl">
+
+            <h1>
+                PROXIMITY <br> SOFTWARE SOLUTIONS
+            </h1>
+            <h2>
+                AP1.IO
+            </h2>
+            <div class="circular-text">
+
+            </div>
+            <a href="https://ap1.io">
+                <button class="main-button">
+                    EXPLORE PROJECT
+                </button>
+            </a>
+
+
+            <div class="feature-overlay">
+
+            </div>
+    <div class="feature-holder">
+    
+        <div class="feature-box">
+            <div class="fbox-main">
+                <div class="f-img">
+                    <img src="Group1.png">
+                </div>
+                <div class="contentboxf">
+                    <h4>
+                        Solving Problems Globally
+                    </h4>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="feature-box">
+            <div class="fbox-main">
+                <div class="f-img">
+                    <img src="Group5.png">
+                </div>
+                <div class="contentboxf">
+                    <h4>
+                        Quick Project Delivery
+                    </h4>
+    
+                </div>
+            </div>
+        </div>
+    
+        <div class="feature-box">
+            <div class="fbox-main">
+                <div class="f-img">
+                    <img src="Group4.png">
+                </div>
+                <div class="contentboxf">
+                    <h4>
+                        Top-notch projects
+                    </h4>
+    
+                </div>
+            </div>
+        </div>
+    
+    </div>
+        </div>
+    </div>
+
+
+    <div class="slider-prod">
+        <div class="product-image">
+            <img src="PROJ1.png">
+
+        </div>
+
+
+
+
+    </div>
+
+
+</div>
+
+    </div>
+
+
+
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="skills">
+
+<h1>My Skills</h1>
+<div class="skill-box">
+    <div class="skill">
+        <div class="benefitimg">
+            <img src="LogoMakr-7hC7ln.png"></div>
+        <div class="benefitcontent">
+            <h3 class="benefitheading">
+                HTML
+            </h3>
+     
+        </div>
+    </div>
+    <div class="skill">
+        <div class="benefitimg">
+            <img src="LogoMakr-73BqRP.png"></div>
+        <div class="benefitcontent">
+            <h3 class="benefitheading">
+                CSS + SASS
+            </h3>
+           
+        </div>
+    </div>
+    <div class="skill">
+        <div class="benefitimg">
+            <img src="LogoMakr-6ry14o.png"></div>
+        <div class="benefitcontent">
+            <h3 class="benefitheading">
+                Javascript + JQUERY
+            </h3>
+            
+        </div>
+    </div>
+</div>
+
+
+
+   
+
+  
+
+    <div class="skill-box">
+       
+        <div class="skill">
+            <div class="benefitimg">
+                <img src="LogoMakr-4eZrqC.png"></div>
+            <div class="benefitcontent">
+                <h3 class="benefitheading">
+                    REACT
+                </h3>
+         
+            </div>
+        </div>
+        <div class="skill">
+            <div class="benefitimg">
+                <img src="LogoMakr-2G6d7r.png"></div>
+            <div class="benefitcontent">
+                <h3 class="benefitheading">
+                    UI/UX Design
+                </h3>
+            
+            </div>
+        </div>
+        <div class="skill">
+            <div class="benefitimg">
+                <img src="LogoMakr-05T44s.png"></div>
+            <div class="benefitcontent">
+                <h3 class="benefitheading">
+                    Project Management
+                </h3>
+        
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+<div class="portfolio-box">
+
+<div class="project">
+    <div class="laptop-box">
+        <img src="PROJ1.png">
+        <h3>AP1.IO</h3>
+    </div>
+</div>
+
+<div class="project">
+    <div class="laptop-box">
+        <img src="welderly.png">
+        <h3>WELDERLY.CA</h3>
+    </div>
+</div>
+
+<div class="project">
+    <div class="laptop-box">
+        <img src="ALLABOUTYOUlaptop.png">
+            <h3>ITZALLABOUTYOU.COM</h3>
+    </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="contact-me">
+    <h3>Contact Me!</h3>
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form id="contact" action="https://formspree.io/f/mqkwgayg" method="POST">
+    <fieldset>
+        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+        <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+        <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+        <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    
+    </form>
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+<footer>
+    <div class="logo-box">
+        <img src='Daher Media Logo Blue BG (2).png'>
+    </div>
+</footer>
+<script>
+
+    const slides = document.querySelector('.slider-holder').children;
+        const prev = document.querySelector('.prev-button');
+        const next = document.querySelector('.next-button');
+        const indicator = document.querySelector('.indicator');
+        const progressbar = document.querySelector('.progressbar');
+        const pgrow = document.querySelector('.pgrow');
+        const currentslideno = document.createElement('p');
+        let index = 0;
+        const totalslideno = document.createElement('p');
+
+
+
+        console.log(slides);
+        prev.addEventListener('click', function () {
+            prevSlide();
+            updateCircleIndicator();
+            resetTimer();
+            updateprog();
+            resetprogress();
+        })
+
+        next.addEventListener('click', function () {
+            nextSlide();
+            updateCircleIndicator();
+            resetTimer();
+            updateprog();
+            resetprogress();
+        })
+
+
+        function prevSlide() {
+            if (index == 0) {
+                index = slides.length - 1;
+            }
+            else {
+                index--;
+            }
+            changeslide();
+            updateCircleIndicator();
+            updateprog();
+            resetprogress();
+        }
+
+
+        function nextSlide() {
+            if (index == slides.length - 1) {
+                index = 0;
+            }
+            else {
+                index++;
+            }
+            changeslide();
+            updateCircleIndicator();
+            resetTimer();
+            updateprog();
+            resetprogress();
+        }
+
+
+
+        function changeslide() {
+            for (i = 0; i < slides.length; i++) {
+                slides[i].classList.remove('active');
+            }
+            slides[index].classList.add('active');
+        }
+
+
+
+        function circleIndicator() {
+            for (let i = 0; i < slides.length; i++) {
+                const div = document.createElement("div");
+
+                div.setAttribute("onclick", "indicateSlide(this)")
+                div.id = i;
+
+                let prodimg = document.createElement("img");
+                prodimg.setAttribute("src", "");
+                prodimg.setAttribute("height", "100%");
+                prodimg.setAttribute("width", "100%");
+                prodimg.setAttribute("max-width", "150px");
+                prodimg.setAttribute("position", "absolute");
+                prodimg.setAttribute("alt", "productimg");
+                div.appendChild(prodimg);
+
+
+
+
+                indicator.appendChild(div);
+            }
+        }
+        circleIndicator();
+
+
+
+
+        function indicateSlide(element) {
+            index = element.id;
+            changeslide();
+            updateCircleIndicator();
+            resetTimer();
+            updateprog();
+            resetprogress();
+
+        }
+
+
+        function updateCircleIndicator() {
+            for (let i = 0; i < indicator.children.length; i++) {
+                indicator.children[i].classList.remove("active");
+            }
+            indicator.children[index].classList.add("active");
+            updateprog();
+        }
+
+        function autoPlay() {
+            nextSlide();
+            updateCircleIndicator();
+
+        }
+
+        let timer = setInterval(autoPlay, 6000);
+
+
+        function resetTimer() {
+            clearInterval(timer);
+            timer = setInterval(autoPlay, 6000);
+        }
+
+
+        let progresstime = setInterval(move, 6000);
+        function resetprogress() {
+
+            clearinterval(progresstime);
+            progresstime = setInterval(move, 6000);
+
+        }
+
+        function progressor() {
+
+            currentslideno.innerText = index + 1;
+            progressbar.insertBefore(currentslideno, pgrow);
+            totalslideno.innerText = slides.length;
+            progressbar.insertBefore(totalslideno, pgrow.nextSibling);
+            pgrow.style.height = "";
+            pgrow.style.width = "2px";
+
+
+        }
+
+
+        progressor();
+
+        function updateprog() {
+            currentslideno.innerText = index + 1;
+            function progresstimer() {
+
+
+
+
+            }
+        }
+
+        var i = 0;
+        function move() {
+            if (i == 0) {
+                i = 0;
+
+                const progbar = document.createElement("div");
+                pgrow.appendChild(progbar);
+                var width = 1;
+                var id = setInterval(frame, 50);
+                function frame() {
+                    if (width >= 100) {
+                        clearInterval(id);
+                        i = 0;
+                        progbar.style.height = 0;
+                        nextSlide();
+                    } else {
+                        width++;
+                        progbar.style.height = width + "%";
+                    }
+                }
+            }
+        }
+
+       
+        const toggler = document.getElementsByClassName("togglebox");
+
+
+
+
+        const toggleboxi = document.getElementsByClassName("togglecontent");
+
+
+        toggleboxi[0].style.display = "block";
+        toggler[0].classList.add("activetoggle");
+
+
+        console.log(toggleboxi);
+
+
+
+
+        function toggle(event, feature) {
+
+
+
+
+            for (i = 0; i < toggleboxi.length; i++) {
+                toggleboxi[i].style.display = "none";
+            };
+            for (i = 0; i < toggler.length; i++) {
+
+                toggler[i].className = toggler[i].className.replace("activetoggle", " ");
+
+
+
+            }
+
+
+            document.getElementById(feature).style.display = "block";
+
+
+            event.target.classList.add("activetoggle");
+
+        } 
+        
+
+
+
+
+        console.log(timer);
+</script>
+
+
+
+</html>
